@@ -35,7 +35,9 @@ const events = [
   'mouseout',
   'mouseover',
   'mouseup',
-  'rightclick'
+  'rightclick',
+  'radius_changed',
+  'center_changed',
 ]
 
 export default mapElementFactory({
